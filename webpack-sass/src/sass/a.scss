@@ -1,0 +1,30 @@
+$nav-color: #F90;
+nav {
+    $width: 100px;
+    width: $width;
+    color: $nav-color;
+}
+
+ul,
+li {
+    list-style: none;
+    animation: all .3s ease;
+    transition: transformY(100%);
+}
+
+h1 {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    color: #3778ff;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 999;
+    text-align: center;
+}
