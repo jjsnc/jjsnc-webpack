@@ -1,6 +1,6 @@
 
-实现对Decorator 函数进行转码
- 
+# Decorator 
+
 npm install
 
 npm start
