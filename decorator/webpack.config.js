@@ -1,9 +1,9 @@
 /*
-* @Author: jjsnc
-* @Date:   2018-07-28 19:06:12
-* @Last Modified by:   jjsnc
-* @Last Modified time: 2018-07-28 19:06:23
-*/
+ * @Author: jjsnc
+ * @Date:   2018-07-28 19:06:12
+ * @Last Modified by:   jjsnc
+ * @Last Modified time: 2018-08-02 10:05:56
+ */
 const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
