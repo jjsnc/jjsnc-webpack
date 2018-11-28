@@ -1,17 +1,12 @@
 /*
-* @Author: jjsnc
-* @Date:   2018-07-28 19:06:57
-* @Last Modified by:   jjsnc
-* @Last Modified time: 2018-07-28 19:08:41
-*/
+ * @Author: jjsnc
+ * @Date:   2018-07-28 19:06:57
+ * @Last Modified by:   jjsnc
+ * @Last Modified time: 2018-10-12 17:39:13
+ */
 
-@testable
-class MyTestableClass {
-  // ...
-}
+import * as a  from './print';
 
-function testable(target) {
-  target.isTestable = true;
-}
 
-console.log(MyTestableClass.isTestable )// true
+console.log(a)
+

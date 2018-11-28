@@ -2,7 +2,7 @@
  * @Author: jjsnc
  * @Date:   2018-07-28 19:06:12
  * @Last Modified by:   jjsnc
- * @Last Modified time: 2018-08-02 10:05:56
+ * @Last Modified time: 2018-08-12 11:47:36
  */
 const path = require('path');
 
@@ -12,7 +12,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
     entry: {
         app: './src/index.js',
-        print: './src/print.js'
+        // print: './src/print.js'
     },
     module: {
         rules: [{
