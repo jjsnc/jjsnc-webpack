@@ -5,7 +5,5 @@
  * @Last Modified time: 2018-10-12 17:38:27
  */
 
- var a = 'foo';
- var b = 'bat'
-export default {a,b}
-// export var b = 'bar';
+export * from './evn.js'
+export * from './lang.js'
